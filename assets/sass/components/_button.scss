@@ -1,0 +1,19 @@
+.btn-azul{
+    background-color: $Blue-Bell;
+    color: $white;
+
+    &:hover{
+        background-color: $Blue-Bell-hover;
+        color: $white; 
+    }
+}
+
+.btn-rojo{
+    background-color:$rojo;
+    color: $white;
+
+    &:hover{
+        background-color: $rojo-hover;
+        color: $white; 
+    }
+}

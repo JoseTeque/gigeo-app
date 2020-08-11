@@ -1,0 +1,25 @@
+.hero-profile img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: auto;
+    height: auto;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+@media (min-width: 768px) {
+    .hero-profile img{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: auto;
+        height: auto;
+        max-height: 80px;
+        max-width: 80px;
+    }
+}

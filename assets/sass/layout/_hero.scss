@@ -1,0 +1,42 @@
+.container-fluid{
+    padding-left: 0;
+    padding-right:0;
+}
+
+.container-fluid img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height:300px;
+}
+
+
+
+.hero{
+    border-bottom: none;
+}
+
+@media (min-width: 768px) {
+    .hero{
+        border-bottom: 1px solid $Old-sirver;
+    } 
+}
+
+.hero-profile-contenido h2{
+    @include conversor-relativo-font(font-size, rem, $x-large, $medium);
+}
+
+.hero-profile-contenido p{
+    color:$Old-sirver;
+    @include conversor-relativo-font(font-size, rem, $large, $medium);
+}
+
+@media (min-width: 768px) {
+    .hero-profile-contenido h2{
+        @include conversor-relativo-font(font-size, rem, $large, $medium);
+    }
+
+    .hero-profile-contenido p{
+        @include conversor-relativo-font(font-size, rem, $medium, $medium);
+    }
+}

@@ -1,0 +1,14 @@
+h1{
+    @include conversor-relativo-font(font-size, rem, $x-large, $medium);
+    @include texto-principal;
+    
+}
+
+h2{
+    @include conversor-relativo-font(font-size, rem, $large, $medium);
+    @include texto-principal;
+}
+
+p{
+    @include conversor-relativo-font(font-size, rem, $medium, $medium);
+}

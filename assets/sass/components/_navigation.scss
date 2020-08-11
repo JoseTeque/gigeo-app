@@ -1,0 +1,27 @@
+.navbar-contenedor a {
+    color:$Dark-jungle;
+}
+
+.navbar-brand-font{
+    font-weight:$bold;
+}
+
+.navbar-brand-font p:first-of-type{
+    @include conversor-relativo-font(font-size, rem, $x-large, $medium);
+}
+
+.navbar-nav-contenedor a:last-of-type{
+    color: $Outer-Space;
+    @include conversor-relativo-font(font-size, rem, $x-large, $medium);
+}
+
+@media (min-width: 768px) {
+    .navbar-nav-contenedor a:last-of-type{
+        @include conversor-relativo-font(font-size, rem, 20, $medium);
+    }
+
+    .navbar-nav-contenedor a{
+        @include conversor-relativo-font(font-size, rem, 20, $medium);
+    }
+}
+
